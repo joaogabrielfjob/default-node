@@ -1,0 +1,21 @@
+{
+  "name": "node-setup",
+  "version": "1.0.0",
+  "description": "default node + ts setup in 2024",
+  "main": "server.js",
+  "scripts": {
+    "build": "tsup src",
+    "start": "node dist/server.js",
+    "run": "tsx watch src/server.ts",
+    "test": "vitest"
+  },
+  "author": "João Job",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "tsup": "^8.0.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.3",
+    "vitest": "^1.4.0"
+  }
+}
